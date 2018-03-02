@@ -11,8 +11,7 @@ const CardList = ({robots}) => {
 					/>
 				)
 			});
-
-	return <div className="tc">{robotCards}</div>;
+	return robotCards;
 }
 
 export default CardList;
